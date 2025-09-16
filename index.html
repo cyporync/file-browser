@@ -2,12 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/pico.min.css">
-    <title>Hello world!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <script src="https://kit.fontawesome.com/0e90d50aa0.js" crossorigin="anonymous"></script>
+    <title>File Browser</title>
   </head>
   <body>
     <main class="container">
-      <h1>Hello world!</h1>
+      <h1>My Files</h1>
+      <table>
+        <tr>
+          <th>File Icon</th>
+          <th>File Name</th>
+          <th>File Type</th>
+          <th>File Size</th>
+        </tr>
+          <td><i class="fa-solid fa-file-pdf"></i></td>
+          <td><a href="file.pdf">file.pdf</a></td>
+          <td>PDF</td>
+          <td>16 KB</td>
+        </tr>
+        <tr>
+          <td><i class="fa-brands fa-markdown"></i></td>
+          <td><a href="file.md">file.md</a></td>
+          <td>Markdown</td>
+          <td>32 bytes</td>
+        </tr>
+        <tr>
+          <td><i class="fa-solid fa-file-code"></i></td>
+          <td><a href="file.json">file.json</a></td>
+          <td>JSON</td>
+          <td>21 bytes</td>
+        </tr>
+        <tr>
+          <td><i class="fa-brands fa-html5"></i></td>
+          <td><a href="file.html">file.html</a></td>
+          <td>HTML</td>
+          <td>390 bytes</td>
+        </tr>
+        <tr>
+          <td><i class="fa-solid fa-image"></i></td>
+          <td><a href="songs.jpg">songs.jpg</a></td>
+          <td>JPG</td>
+          <td>130 KB</td>
+        </tr>
+      </table>
+
+      <ul>
+        <li>The HTML file displays as another page of the website.</li>
+        <li>The pdf opens in a pdf viewer in the browser.</li>
+        <li>The markdown does not display in markdown. Instead of the text being a heading, the hashtag is visible and the font is plain.</li>
+      </ul>
+      
     </main>
   </body>
 </html>
